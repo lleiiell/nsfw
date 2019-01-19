@@ -24,3 +24,7 @@ docker run -it --privileged -e FLASK_APP=nsfw.py -p 10022:80 -v {nsfw_path}:/wor
 
 
 http://localhost:10022/ck?u=https%3A%2F%2Fdun.163.com%2Fpublic%2Fres%2Fweb%2Fcase%2Fsexy_danger_2.jpg%3Fe30b03637bcdd08e499d5c5b8033276b
+
+入参
+
+`u` 图片链接编码地址（urlencode）
