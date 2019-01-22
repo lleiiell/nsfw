@@ -22,6 +22,10 @@ caffe_transformer.set_channel_swap('data', (2, 1, 0))  # swap channels from RGB 
 
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return "welcome to nsfw"
+
 @app.route('/ck')
 def ck():
 
